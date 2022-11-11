@@ -6,7 +6,7 @@ jobs:
   format:
     steps:
       runs-on: ubuntu-latest
-      timeout-minutes:10
+      timeout-minutes:1
       - name: Run black formatter
         uses: rickstaa/action-black@v1.1.14
 
