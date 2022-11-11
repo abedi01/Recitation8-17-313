@@ -34,7 +34,7 @@ jobs:
         run: |
           pipenv run pytest
 
-  covtest:
+    covtest:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -56,4 +56,3 @@ jobs:
           cd app
       - name: Run test suite
         run: |
-          pipenv run pytest --cov=app
