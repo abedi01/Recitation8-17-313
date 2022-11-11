@@ -2,12 +2,6 @@ name: build
 on: push
 
 jobs:
-
-  format:
-    steps:
-      - name: Run black formatter
-        uses: rickstaa/action-black@v1.1.14
-
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 10
